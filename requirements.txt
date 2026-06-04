@@ -1,0 +1,3 @@
+# minis-content-rescue — run: pip install -r requirements.txt && playwright install chromium
+pyyaml>=6,<7
+playwright>=1.40

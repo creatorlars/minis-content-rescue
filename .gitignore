@@ -1,0 +1,16 @@
+# The in-progress site mirrors live here but must NEVER be committed back to source.
+# (Multi-GB; rebuilt/extended by the scraper. archive/README.md is tracked as an exception.)
+/archive/*
+!/archive/README.md
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Runner logs / scratch
+*.log
+/run-state/
